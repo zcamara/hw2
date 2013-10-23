@@ -77,8 +77,34 @@ nav a img {
 	height: 40%;
 }
 
+dl img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+}
+
 @media screen and (max-width: 768px) {
-	.
+
+	dl img {
+		width: 240px;
+		height: 71px;
+	}
+
+	iframe {
+		width: 200px;
+		height: 150px;
+	}
+
+	.maincontainer {
+		width: 99%;
+	}
+}
+
+.twitter-follow-button {
+	margin: 0px;
+	height: 50px !important;
 }
 
 .navbar-brand {
@@ -88,14 +114,6 @@ nav a img {
 	margin-left: 5px;
 	padding-right: 200px;
 	padding-bottom: 30px;
-}
-
-dl img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	height: 50%;
 }
 
 dd {
